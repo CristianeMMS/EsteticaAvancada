@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Pacientes</title>
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Pacientes Cadastrados</h2>
+
+        <table id="tabelaPacientes">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Telefone</th>
+                    <th>Endereço</th>
+                    <th>Convênio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dados serão inseridos dinamicamente -->
+            </tbody>
+        </table>
+        
+        
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <input class="botao editar" type="button" value="Editar" onclick="editarPaciente()">
+            <input class="botao excluir" type="button" value="Excluir" onclick="excluirPaciente()">
+            
+            <button onclick="window.location.href='/tela-inicio'" class="btn btn-secondary">Voltar</button>
+        </div>
+<!--
+        <div class="botoes-acoes">
+        <input class="botao editar" type="button" value="Editar" onclick="editarPaciente()">
+        <input class="botao excluir" type="button" value="Excluir" onclick="excluirPaciente()">
+        <input class="botao voltarIndex" type="button" value="Voltar" onclick="voltar()">
+        </div>
+    
+-->
+</body>
+
+</html>

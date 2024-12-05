@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estética Avançada</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    
+   <div class="container">
+       <h1>Estética Avançada</h1>
+       
+<!-- comment 
+        <p>
+            <input class="botao cadastrarPaciente" type="button" value="Cadastrar Paciente" onclick="redirecionarParaCadastro()">
+        </p>
+        <p>
+            <input class="botao PacientesCadastrados" type="button" value="Pacientes Cadastrados" onclick="redirecionarParaLista()">
+        </p>
+-->
+        <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+            <p>
+        <button onclick="window.location.href='/inserir-paciente'" class="btn btn-secondary">Cadastrar Paciente</button> </p>
+            <p>
+        <button onclick="window.location.href='/listar-paciente'" class="btn btn-secondary">Pacientes Cadastrados</button> </p>
+            
+            
+        </div>
+   </div>
+    
+    
+   
+</body>
+
+</html>
